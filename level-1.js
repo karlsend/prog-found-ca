@@ -102,11 +102,14 @@ Create a function that accepts one argument.
 Inside the function, add the argument to the array.
 Call the function and pass in a value of any type.
 */
-var myArray = [];
-function addToArray(name) {
-  console.log("My name is" + name)
-    myArray.push(name);
-    addToArray("Inge");
+var array = [];
+
+function myName(name) {
+    return array.push(name);
 }
+
+myName("Inge");
+
+console.log(array);
 
 https://github.com/karlsend/prog-found-ca.git
